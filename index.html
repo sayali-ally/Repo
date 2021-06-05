@@ -1,74 +1,83 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./index.css">
+<title>Document</title>
 </head>
 
 <body>
 
+<h2>Navigation Menu</h2>
+
+    <ul>
+      <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+    </ul>
+
+    <article class="all-browsers">
+       <h2>Most Popular Browsers</h2>
+       <article class="single-browser">
+         <h3>Google</h3>
+        <p> Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+       </article>
+       <article class="single-browser">
+         <h3>Firefox</h3>
+        <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+      </article>
+      <article class="single-browser">
+         <h3>Mozilla</h3>
+       <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+      </article>
+
+    </article>
+ 
+    <h1>Horizontal Table</h1>
     <table>
       <tr>
-        <th colspan="3">Invoice#12345</th>
-        <th colspan="1">18 Jul 2019 </th>
+        <th>Name</th>
+        <th>Email</th>
+        <th colspan="2">Phone</th>
       </tr>
-      
-     <tr>
-       <td colspan="2">
-         Pay To:<br/>
-         The Tech Park <br/>
-         123 Willow Street <br/>
-         LA
-       </td>
-       
-       <td colspan="2">
-         Customer<br/>
-         John</br>
-      Dummy Apartment<br/>
-      276 Main Street <br/>
-      Boulevard,LA-5678982
-      </td>
-     </tr>
-    
-  <tr class="items">
-    <td> Name/Description</td>
-    <td>Qty.</td>
-    <td>MRP.</td>
-    <td>Amount</td>
-  </tr>
-  
-  <tr>
-    <td>Biryani</td>
-    <td>3</td>
-    <td>400</td>
-    <td>1200</td>
-  </tr>
-   <tr>
-    <td>Choclate Shake</td>
-    <td>3</td>
-    <td>200</td>
-    <td>600</td>
-  </tr>
-  
-  <tr>
-    <td colspan="3" class="total">Subtotal</td>
-    <td>1800</td>
-  </tr>
-  
-  <tr>
-    <td colspan="2" class="tax">Tax</td>
-    <td>10%</td>
-    <td>180</td>
-  </tr>
-  
-  <tr>
-    <td colspan="3" class="subTotal">GrandTotal</td>
-    <td>Rs 1620</td>
-  </tr>
-  
-  </table>
-  
-      
-</body>
 
+      <tr>
+        <td>John Doe</td>
+        <td>john@ally.io</td>
+        <td>123-456</td>
+        <td>567-890</td>
+      </tr>
+    </table>
+
+    <h1>Vertical Table</h1>
+    <table>
+      <tr>
+       <th>Name</th>
+       <td>John</td>
+      </tr>
+
+      <tr>
+        <th>Email</th>
+        <td>John@ally.io</td>
+      </tr>
+
+      <tr>
+        <th rowspan="2">Phone</th>
+        <tr><td>123-456</td></tr>
+         <tr><td>678-890</td></tr>
+      </tr>
+    </table>
+
+    <footer>
+      <p>Author:Hege Refsnes<br>
+      <a href="mailto:hege@example.com">hege@example.com</a>
+      </p>
+    </footer>
+
+</body>
 </html>
