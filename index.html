@@ -1,92 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vegan</title>
 
-    <nav>
-        <img class="stunning-logo" src="https://drive.google.com/thumbnail?id=15cxbovgOF27L5bFrYCZ2ssducdWBC1uw">
-        <div class="nav-bar">
-            <a class="home" href="/Home">Home</a>
-            <a class="about" href="/About">About</a>
-            <a class="blogs" href="/Blogs">Blogs</a>
-            <a class="jobs" href="/Jobs">Jobs</a>
-        </div>
-        <div class="accounts"><h4>Your Account</h4></div>
-    </nav>
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./index.css">
 </head>
+
 <body>
-    <div class="heading">
-    <h1 class="hd">Stunning <br>
-    Workplace</h1>
 
-    <p class="big">With Stunning,remote teams can organize projects,<br>
-    manage shifting priorities,and get work done.</p>
-
-    <button class="button button">New Account</button>
-    <img class="img" src="https://drive.google.com/thumbnail?id=1pEDQY1tR_uxjWvE2bg4KjRsHuFYOGVLu">
-  </div>
-   
-  <div class="container">
-    
-    
-     <div class="box-1">
-       <img class="i-1" src="
-
-https://drive.google.com/thumbnail?id=1YISBz2CTiPFwD3FGzcl8-6-ppSVhAToA">
-       <p>Dmm design</p>
-       <img class ="icon1" src="https://drive.google.com/thumbnail?id=1vnx9govyx8BAxHKC6OxXOJzTqu2A20Ji">
-       <p>20 Dec</p>
+    <div>
+        <h1>Form</h1>
     </div>
-    
-    
-    
-    
-    <div class="box-2">
-      <img class="i-1" src="
 
-https://drive.google.com/thumbnail?id=1JtR62UGZYGm_o7WVMaUuMNvCyJh8xMOE">
-       <p>Blur Animation</p>
-       <img class ="icon1" src="https://drive.google.com/thumbnail?id=1TAKCrxoS9El77R5XN2NvAEn1cdfiWP7L">
-       <p>22 Dec</p>
-    </div>
-    
-    
-    
-    
-    <div class="box-3">
-       <img class="i-1" src="
 
-https://drive.google.com/thumbnail?id=1YISBz2CTiPFwD3FGzcl8-6-ppSVhAToA">
-       <p>Illustrations</p>
-       <img class ="icon1" src="https://drive.google.com/thumbnail?id=133fKMZQYUGCqziquuuRb_EnFq9bVCRYr">
-       <p>26 Dec</p>
-    </div>
-    
-    
-    
-    
-    <div class="box-4">
-       <img class="i-1" src="
 
-https://drive.google.com/thumbnail?id=1YISBz2CTiPFwD3FGzcl8-6-ppSVhAToA">
-       <p>Refunds</p>
-       <img class ="icon1" src="https://drive.google.com/thumbnail?id=1L70E1YiwMyqtc4zLUWt-FG25E9WQZjZj">
-       <p>28 Dec</p>
-      
-    </div>
+    <label>First Name</label></body>
+    <input id="firstName" placeholder="Enter first name"><br />
+    <label>Title</label>
+    <input id="title" placeholder="Enter title"><br />
+    <label>Age</label>
+    <input id="age" placeholder="Enter age"><br />
+    <label>Company name</label>
+    <input id="companyName" placeholder="Enter company name"><br />
     
-    
-    
-  </div>
-  
-  
-  
-  
-  <div class="main_pic">
-     <img src="https://drive.google.com/thumbnail?id=10SIPaEnWrvW6xqTXtOSTFAcwFeX6jEJj" width="500" height="500">
-   </div>
+    <button>Save and Proceed</button>
+
+    <br />
+
+
+    <div id="products"></div>
+    <script src="./commonData.js"></script>
+    <script src="./index.js"></script>
+
+    <script>
+        const button = document.querySelector("button");
+        const firstName = document.querySelector("#firstName");
+        const title = document.querySelector("#title");
+        const age = document.querySelector("#age");
+        const companyName = document.querySelector("#companyName");
+        button.addEventListener('dblclick', (event) => {
+            const fullName = firstName.value + title.value;
+            const personAge = age.value;
+            const cmpName = companyName.value;
+            alert(`The full name is ${fullName}
+            The age is ${personAge} 
+            The company name is ${cmpName}`)
+        })
+
+
+        const targetInput = document.querySelector("#targetInput");
+        const ptarget = document.querySelector("#pData");
+        targetInput.addEventListener('input', (event) => {
+            ptarget.textContent = event.target.value
+        })
+
+        //blur keypress 
+
+
+
+        const clickMe = () => {
+            alert("Hey its clicked")
+        }
+    </script>
 </body>
+
 </html>
