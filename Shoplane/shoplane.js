@@ -30,12 +30,9 @@
 
         productCard.appendChild(productImgContainer);
         productCard.appendChild(productDetails);
-    }
-    for(let i=0;i<5;i++)
-    {
+        if(product.isAccessory)
+            accessories.appendChild(productCard)
+        else
         clothing.appendChild(productCard)
     }
-    for(let i=0;i<5;i++)
-    {
-        accessories.appendChild(productCard)
-    }
+   

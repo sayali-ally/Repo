@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./event.css"/>
+</head>
+<body>
+    <input id="blockInput" placeholder="Enter number of blocks" type="number"/>
+    <button>Submit</button>
+    <div id="answer"></div>
+    <script>
+        const button = document.querySelector("button");
+        const blockInput=document.querySelector("#blockInput");
+        const answer=document.querySelector("#answer")
+
+        let box;
+        button.addEventListener("dblclick",(event)=>{
+            const value=blockInput.value;
+            answer.innerHTML="";
+            alert(`${value}`);
+            for( var i=0;i<value;i++)
+            {
+                 box= document.createElement("div");
+                 box.class="block";
+                 answer.appendChild(box);
+                 var randomColor = Math.floor(Math.random() * 16777215).toString(16);
+             box.style.backgroundColor = "#" + randomColor;
+            }
+        });
+    </script>
+</body>
+</html>

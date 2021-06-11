@@ -1,0 +1,16 @@
+nav{
+    margin:10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.accounts{
+    border-radius: 20px;
+    background-color: lightpink;
+    color:darkslateblue;
+    border:none;
+    height:50px;
+    width:170px;
+    text-align: center;
+    float:right;
+}

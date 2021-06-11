@@ -1,0 +1,13 @@
+#timer{
+    border: 3px solid green;
+    color:black;
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 90px;
+}
+#title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    border:2px solid red;
+    text-align: center;
+}

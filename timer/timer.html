@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,30 +9,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="./stopwatch.css">
+    <link rel="stylesheet" href="./timer.css">
     <title>Document</title>
 </head>
 <body>
-    <div id="timer"></div>
+    <h1 id="timer">00:00:00</h1>
+    <button class="start-button">Start</button>
+    <button class="stop-button">Stop</button>
+    <button class="reset-button">Reset</button>
 
-    <script>
-        setInterval(displayFun,1000);
-         function  displayFun(){
-        var time=new Date();
-        var hrs=time.getHours();
-        var min=time.getMinutes();
-        var sec=time.getSeconds();
-  
-          if(hrs==0)
-          hr=12;
-
-          if(hrs>12)
-          {
-              hr=hr-12;
-          }
-          document.getElementById("timer").innerHTML=hrs+':'+min+':'+sec;
-         }
-
-    </script>
-</body>
+    <script src="timer.js"></script>
 </html>

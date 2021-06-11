@@ -1,0 +1,10 @@
+.block{
+    width : 20px;
+    height:20px;
+    border:5px solid black;
+    margin : 10px;
+}
+#answer{
+    display: flex;
+    flex-wrap:wrap;
+}
