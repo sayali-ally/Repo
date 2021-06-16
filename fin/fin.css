@@ -1,0 +1,960 @@
+#header {
+    background-color: #241b18;
+    height: 88px;
+    border-bottom: 1px solid #fff;
+    padding: 36px 0 0;
+}
+div {
+    display: block;
+}
+body {
+    background: #211917 url(../images/bg-body.png) repeat-y center top;
+    font-family: "QuattrocentoSans-Regular";
+    margin: 0;
+}
+#header > div {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: right;
+}
+body {
+    background: #211917 url(https://freewebsitetemplates.com/preview/woodworkingwebsitetemplate/images/bg-body.png) repeat-y center top;
+    font-family: "QuattrocentoSans-Regular";
+    margin: 0;
+}
+#logo {
+    float: left;
+}
+#header > div {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: right;
+}
+body {
+    background: #211917 url(https://freewebsitetemplates.com/preview/woodworkingwebsitetemplate/images/bg-body.png) repeat-y center top;
+    font-family: "QuattrocentoSans-Regular";
+    margin: 0;
+}
+#navigation {
+    display: inline-block;
+    line-height: 80px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+body {
+    background: #211917 url(https://freewebsitetemplates.com/preview/woodworkingwebsitetemplate/images/bg-body.png) repeat-y center top;
+    font-family: "QuattrocentoSans-Regular";
+    margin: 0;
+}
+#contents {
+    background-position: -961px top;
+    background-repeat: repeat-y;
+    width: 970px;
+    margin: 0 auto;
+}
+#contents, #contents > div, #contents div.body {
+    background-image: url(https://freewebsitetemplates.com/preview/woodworkingwebsitetemplate/images/bg-contents.png);
+}
+#footer {
+    background-color: #e2b241;
+    border-top: 1px solid #fff;
+    padding: 28px 0 14px;
+}
+body {
+    background: #211917 url(https://freewebsitetemplates.com/preview/woodworkingwebsitetemplate/images/bg-body.png) repeat-y center top;
+    font-family: "QuattrocentoSans-Regular";
+    margin: 0;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+body {
+    background: #211917 url(https://freewebsitetemplates.com/preview/woodworkingwebsitetemplate/images/bg-body.png) repeat-y center top;
+    font-family: "QuattrocentoSans-Regular";
+    margin: 0;
+}
+img {
+    border: 0;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+#navigation li:first-child {
+    margin-left: 0;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+#navigation {
+    display: inline-block;
+    line-height: 80px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#header > div {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+#navigation li {
+    float: left;
+    margin: 0 15px;
+}
+#navigation li a:hover, #navigation li.selected a {
+    color: #ffc947;
+}
+#navigation li a {
+    color: #fff;
+    font-family: "Oswald";
+    font-size: 14px;
+    padding: 15px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:-webkit-any-link {
+    cursor: pointer;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+#contents > div {
+    background-position: -1931px bottom;
+    width: 960px;
+    padding: 0 5px 10px;
+}
+#contents, #contents > div, #contents div.body {
+    background-image: url(https://freewebsitetemplates.com/preview/woodworkingwebsitetemplate/images/bg-contents.png);
+    background-repeat: no-repeat;
+}
+#contents div.body {
+    background-position: 1px top;
+    display: inline-block;
+    width: 940px;
+    padding: 10px 10px 0;
+}
+#contents, #contents > div, #contents div.body {
+    background-image: url(../images/bg-contents.png);
+    background-repeat: no-repeat;
+}
+#adbox {
+    height: 407px;
+    width: 938px;
+    border-color: #fff;
+    border-width: 1px;
+    border-style: none solid solid;
+    margin: -10px 0 0;
+    position: relative;
+}
+#adbox span.info {
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    left: 330px;
+    bottom: 25px;
+}
+#adbox span.info em {
+    display: block;
+    font-size: 24px;
+    font-style: normal;
+}
+.btn1 {
+    background-position: 0 0;
+    color: #966a01;
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    width: 109px;
+}
+.btn1, .btn2 {
+    background: url(https://freewebsitetemplates.com/preview/woodworkingwebsitetemplate/images/buttons.png) no-repeat;
+    cursor: pointer;
+    font: 14px/24px "Oswald";
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#adbox div.details {
+    background: url(https://freewebsitetemplates.com/preview/woodworkingwebsitetemplate/images/bg-pattern.jpg) no-repeat left top;
+    height: 407px;
+    width: 380px;
+    padding: 61px 45px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#adbox div.details h1 {
+    color: #241b18;
+    font-family: "Oswald";
+    font-size: 34px;
+    font-weight: normal;
+    margin: 0 0 24px;
+    text-align: center;
+    text-shadow: 1px 1px #fff;
+}
+#contents div.body h1 {
+    text-transform: uppercase;
+}
+#adbox div.details p {
+    color: #241b18;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#contents p {
+    line-height: 24px;
+    margin: 0;
+    padding: 0 0 24px;
+    text-align: justify;
+}
+
+
+
+
+#featured {
+    display: inline-block;
+    list-style: none;
+    width: 940px;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+div.contact {
+    float: left;
+    background: url(https://freewebsitetemplates.com/preview/woodworkingwebsitetemplate/images/separator-light-vertical.png) repeat-y right top;
+    height: 225px;
+    width: 254px;
+    padding: 20px 40px 0 20px;
+    background-color: #fff;
+}
+div.blog {
+    display: inline-block;
+    height: 225px;
+    width: 626px;
+    padding: 20px 0 0;
+    background-color: #fff;
+}
+img {
+    border: 0;
+}
+#featured li {
+    float: left;
+    background-color: #4b3a33;
+    width: 314px;
+    overflow: hidden;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+#featured {
+    display: inline-block;
+    list-style: none;
+    width: 940px;
+    margin: 0;
+    padding: 0;
+}
+#featured li.bedroom {
+    background-color: #241b18;
+}
+#featured li {
+    float: left;
+    width: 314px;
+    overflow: hidden;
+}
+#featured {
+    display: inline-block;
+    list-style: none;
+    width: 940px;
+    margin: 0;
+    padding: 0;
+}
+#featured li.kitchen {
+    width: 312px;
+}
+#featured li {
+    float: left;
+    background-color: #4b3a33;
+    overflow: hidden;
+}
+#featured li > div:first-child {
+    height: 179px;
+    width: 314px;
+    overflow: hidden;
+    position: relative;
+}
+#featured div.details {
+    background: url(../images/separator-light.png) repeat-x left top;
+    padding: 16px 20px 0;
+}
+#featured div.details h4 {
+    color: #ffc947;
+    font-family: "Oswald";
+    font-weight: normal;
+    margin: 0 0 6px;
+    text-transform: uppercase;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#featured div.details p {
+    color: #fff;
+    font-size: 13px;
+    line-height: 18px;
+}
+#contents p {
+    color: #626161;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0 0 24px;
+    text-align: justify;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#featured div.details p a {
+    color: #fff;
+    text-decoration: none;
+}
+#featured div.details p {
+    font-size: 13px;
+    line-height: 18px;
+}
+#contents p {
+    color: #626161;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0 0 24px;
+    text-align: justify;
+}
+#featured li > div:first-child > a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#featured div.details h4 {
+    color: #ffc947;
+    font-family: "Oswald";
+    font-weight: normal;
+    margin: 0 0 6px;
+    text-transform: uppercase;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#featured div.details p {
+    color: #fff;
+    font-size: 13px;
+    line-height: 18px;
+}
+#contents p {
+    margin: 0;
+    padding: 0 0 24px;
+    text-align: justify;
+}
+#featured div.details p a {
+    color: #fff;
+    text-decoration: none;
+}
+#contents p {
+    margin: 0;
+    padding: 0 0 24px;
+    text-align: justify;
+}
+#contents div.contact p {
+    color: #7b7b7b;
+    font-family: "Oswald";
+    font-size: 14px;
+    padding-bottom: 0;
+    text-transform: uppercase;
+}
+#contents p {
+    line-height: 24px;
+    margin: 0;
+    padding: 0 0 24px;
+    text-align: justify;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+div.contact p b {
+    color: #241b18;
+    display: block;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 30px;
+    padding: 0 0 24px;
+}
+#contents div.contact p {
+    font-family: "Oswald";
+    padding-bottom: 0;
+    text-transform: uppercase;
+}
+div.blog h4 {
+    color: #7b7b7b;
+    font-family: "Oswald";
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0 0 12px;
+    padding-left: 21px;
+    text-transform: uppercase;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+div.blog > div {
+    float: left;
+    background: url(https://freewebsitetemplates.com/preview/woodworkingwebsitetemplate/images/bg-box.png) no-repeat left top;
+    width: 254px;
+    margin: 0 21px;
+    padding: 0 0 0 15px;
+    position: relative;
+}
+div.blog > div img {
+    float: right;
+    margin-left: 20px;
+}
+img {
+    border: 0;
+}
+div.blog span {
+    color: #4b3a33;
+    display: block;
+    font-size: 12px;
+    margin: 18px 0 0;
+}
+#contents div.blog > div p {
+    color: #4b3a33;
+    font-family: "Oswald";
+    line-height: 18px;
+    padding: 12px 0;
+    text-align: left;
+}
+div.blog a.more {
+    color: #4b3a33;
+    font: 12px/24px 'Oswald';
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 18px;
+    left: 15px;
+}
+div.blog > div {
+    float: left;
+    background: url(../images/bg-box.png) no-repeat left top;
+    width: 254px;
+    margin: 0 21px;
+    padding: 0 0 0 15px;
+    position: relative;
+}
+div.blog > div img {
+    float: right;
+    margin-left: 20px;
+}
+div.blog span {
+    color: #4b3a33;
+    display: block;
+    font-size: 12px;
+    margin: 18px 0 0;
+}
+div.blog a.more {
+    color: #4b3a33;
+    font: 12px/24px 'Oswald';
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 18px;
+    left: 15px;
+}
+#footer {
+    background-color: #e2b241;
+    border-top: 1px solid #fff;
+    padding: 28px 0 14px;
+}
+#footer > div {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+#footer > div {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+element.style {
+    text-align: center;
+}
+#links {
+    background: url(../images/separator-dark.png) repeat-x left bottom;
+    color: #4b3a33;
+    display: inline-block;
+    width: 940px;
+    padding: 0 0 20px;
+}
+#footer ul.navigation {
+    float: right;
+    display: inline-block;
+    line-height: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#footer #footnote {
+    color: #ab7d0f;
+    font: 11px/24px "Oswald";
+    margin: 0;
+    text-transform: uppercase;
+}
+#links .showroom {
+    background: none;
+    width: 293px;
+    padding-left: 0;
+    padding-right: 15px;
+}
+#links > div {
+    float: left;
+    height: 300px;
+}
+#links {
+    background: url(../images/separator-dark.png) repeat-x left bottom;
+    color: #4b3a33;
+    display: inline-block;
+    width: 940px;
+    padding: 0 0 20px;
+}
+#links .showroom h4 {
+    padding-left: 0;
+}
+#links h4 {
+    color: #241b18;
+    font-family: "Oswald";
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0 0 12px;
+    text-transform: uppercase;
+}
+#links > div {
+    float: left;
+    background: url(../images/separator-dark-vertical.png) repeat-y left top;
+    height: 300px;
+    padding-left: 20px;
+}
+#links h4 {
+    color: #241b18;
+    font-family: "Oswald";
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0 0 12px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#links {
+    background: url(../images/separator-dark.png) repeat-x left bottom;
+    color: #4b3a33;
+    display: inline-block;
+    width: 940px;
+    padding: 0 0 20px;
+}
+#links .showroom p {
+    font-size: 13px;
+    margin: 0;
+}
+#footer p {
+    color: #4b3a33;
+    line-height: 18px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#links .showroom p a {
+    color: #4b3a33;
+    display: block;
+}
+#links .showroom p {
+    font-size: 13px;
+    margin: 0;
+}
+#footer p {
+    line-height: 18px;
+    margin: 0;
+}
+#links > div {
+    float: left;
+    background: url(../images/separator-dark-vertical.png) repeat-y left top;
+    height: 300px;
+    padding-left: 20px;
+}
+#links h4 {
+    color: #241b18;
+    font-family: "Oswald";
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0 0 12px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#footer .posts {
+    float: left;
+    height: 300px;
+    width: 302px;
+    padding: 0;
+}
+.posts {
+    list-style: none;
+    margin: 0;
+}
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+#footer .posts li {
+    width: 276px;
+    margin: 0 0 30px;
+    padding-left: 10px;
+}
+.posts li {
+    display: inline-block;
+    font-size: 13px;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+.posts {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.time {
+    float: left;
+    background: url(../images/bg-time.png) no-repeat left top;
+    color: #fff;
+    font-family: "Oswald";
+    display: block;
+    height: 42px;
+    width: 32px;
+    margin: 0 5px 15px 0;
+    padding: 0 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.posts li {
+    display: inline-block;
+    font-size: 13px;
+}
+#footer p {
+    color: #4b3a33;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0;
+}
+.posts p {
+    padding-left: 50px;
+}
+#footer .posts p a {
+    line-height: 24px;
+    margin: -3px 0 3px;
+}
+.posts p a {
+    color: #4b3a33;
+    display: block;
+    font-family: "Oswald";
+    text-decoration: none;
+}
+#footer p {
+    font-size: 12px;
+    margin: 0;
+}
+.posts p {
+    padding-left: 50px;
+}
+.posts li {
+    display: inline-block;
+}
+#newsletter {
+    background: url(../images/separator-dark.png) repeat-x left bottom;
+    width: 284px;
+    margin: 0 0 16px 6px;
+    padding: 0 0 20px;
+}
+form {
+    display: block;
+}
+#newsletter h4 {
+    padding-left: 0;
+}
+#links h4 {
+    color: #241b18;
+    font-family: "Oswald";
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0 0 12px;
+    text-transform: uppercase;
+}
+#newsletter input {
+    color: #4b3a33;
+    height: 26px;
+    line-height: 26px;
+    width: 269px;
+    border: 3px solid #af8112;
+    margin: 0 0 6px;
+    padding: 0 4px;
+}
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    font: 400 13.3333px Arial;
+}
+#newsletter input.btn2 {
+    color: #fff;
+    width: 83px;
+    border: 0;
+    padding: 0px 0 2px;
+}
+#newsletter input {
+    height: 26px;
+    line-height: 26px;
+    margin: 0 0 6px;
+}
+.btn2 {
+    background-position: -13px -39px;
+    font-size: 11px;
+}
+.btn1, .btn2 {
+    background: url(../images/buttons.png) no-repeat;
+    cursor: pointer;
+    font: 14px/24px "Oswald";
+    text-decoration: none;
+    text-transform: uppercase;
+}
+input[type="submit" i] {
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: -internal-light-dark(black, white);
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    box-sizing: border-box;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+user agent stylesheet
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    -webkit-rtl-ordering: logical;
+}
+#links h4 {
+    color: #241b18;
+    font-family: "Oswald";
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0 0 12px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+#connect a.facebook {
+    background-position: -46px -112px;
+    width: 33px;
+}
+#connect a {
+    display: inline-block;
+    height: 33px;
+    margin: 0 10px;
+}
+#connect a, #pagination .previous, #pagination .next, #blog .comments {
+    background: url(https://freewebsitetemplates.com/preview/woodworkingwebsitetemplate/images/icons.png) no-repeat;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#connect a.googleplus {
+    background-position: -46px -153px;
+    width: 34px;
+}
+#connect a, #pagination .previous, #pagination .next, #blog .comments {
+    background: url(https://freewebsitetemplates.com/preview/woodworkingwebsitetemplate/images/icons.png) no-repeat;
+}
+#connect a.twitter {
+    background-position: -46px -194px;
+    width: 40px;
+}
+#connect a, #pagination .previous, #pagination .next, #blog .comments {
+    background: url(https://freewebsitetemplates.com/preview/woodworkingwebsitetemplate/images/icons.png) no-repeat;
+}
+.time {
+    float: left;
+    background: url(https://freewebsitetemplates.com/preview/woodworkingwebsitetemplate/images/bg-time.png) no-repeat left top;
+    color: #fff;
+    font-family: "Oswald";
+    display: block;
+    height: 42px;
+    width: 32px;
+    margin: 0 5px 15px 0;
+    padding: 0 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#newsletter input.btn2 {
+    color: #fff;
+    width: 83px;
+    border: 0;
+    padding: 0px 0 2px;
+}
+.btn1, .btn2 {
+    background: url(https://freewebsitetemplates.com/preview/woodworkingwebsitetemplate/images/buttons.png) no-repeat;
+    cursor: pointer;
+    font: 14px/24px "Oswald";
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
